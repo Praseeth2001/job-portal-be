@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment
+.env
+.env.local
+
+# Uploads (local disk storage — not committed, folders kept via .gitkeep)
+uploads/resumes/*
+uploads/companies/*
+uploads/messages/*
+!uploads/**/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+
+# npm
+npm-debug.log*
